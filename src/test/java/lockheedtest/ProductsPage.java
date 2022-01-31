@@ -67,12 +67,12 @@ public class ProductsPage {
 		lan = new LandingPage(driver);
 		// Stale element exception occured, put it in try block to solve it
 		try {
-			lan.getSearchBar().sendKeys("samsung s21 ultra");
+			lan.getSearchBar().sendKeys("iphone 13 pro max");
 			Thread.sleep(1000);
 			lan.getSubmitSearch().click();
 
 		} catch (StaleElementReferenceException e) {
-			lan.getSearchBar().sendKeys("samsung s21 ultra");
+			lan.getSearchBar().sendKeys("iphone 13 pro max");
 			lan.getSubmitSearch().click();
 		}
 
