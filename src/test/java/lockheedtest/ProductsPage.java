@@ -95,7 +95,9 @@ public class ProductsPage {
 		WebElement element = wait.until(ExpectedConditions.elementToBeClickable(pro.getfAssuredCheckBox()));
 		element.click();
 		log.info("applied the filters");
-		//lsjdlfkjaslkjfdlaskjdflkj
+
+		// modified again
+
 
 	}
 
