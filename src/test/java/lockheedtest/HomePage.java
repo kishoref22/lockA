@@ -39,8 +39,10 @@ public class HomePage extends Base {
 		Base base = new Base();
 		driver = base.initializeDriver();
 		log.info("driver instance was created");
+
 		driver.get(base.getURL());
 
+		// this is develop branch
 	}
 
 	
